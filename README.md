@@ -42,12 +42,12 @@ Whereas, for any physical object, it's impossible to have length as -1 cm(!). An
       Thus, such data is known to have **Quantitative Measurements**.
       It *can be measured, but not counted*.  
       The answer to **How much?** may be a **decimal number**.  
-        - **Interval**
-        Interval data have *true zero*.  
+        - **Interval**  
+        Interval data doesn't have *true zero*.  
         This type of metric values *cannot* be divided or multiplied to obtain a meaningful measure. 
         (e.g temperature; having 20 deg C at 'A' and 40 deg C at 'B' doesn't mean that B is twice hot as A. That means division doesn't make any sense)  
-        - **Ratio**
-        Ratios cannot have *true zero*.
+        - **Ratio**  
+        Ratios has *true zero*.
         This type of metric values can be divided or multiplied to obtain a meaningful measure of characteristic.   
         (e.g length; 10cm pencil is obviously twice as long as 5cm pencil)  
       - **Discrete**
