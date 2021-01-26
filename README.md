@@ -18,10 +18,11 @@ This repository contains some of the most important concepts which must be studi
 
 Before going straight into the core, it's better to back ourselves up with a concept of **True Zero**
 #### True Zero
-Metrics whose values **can fall below zero** are called to hold **true zero** whereas, if this is not possible, they are said to not possess a true zero.  
+Metrics whose values **can't fall below zero** are called to hold **true zero** whereas, if it's possible, they are said to not possess a true zero.  
+**OR** If the value being 'zero' for certain metric depicts absence or no existence of the entity, it's said to possess true.  
 Confused? Understanding this will be easy with example. Consider two measures: cm for **length** and deg C for **temperature**.  
-It's possible that the temperature outside dip below zero to -10 deg C, hence it's called to hold true zero.  
-Whereas, for any physical object, it's impossible to have length as -1 cm(!). And same is for weight too. Hence, length and weight can't have a true zero.  
+It's possible that the temperature outside dip below zero to -10 deg C, hence it doesn't hold true zero.  
+Whereas, for any physical object, it's impossible to have length as -1 cm(!). And length being 0cm means the objects is non-existent. Same holds true for weight too. Hence, length and weight has a true zero.  
 
 - Types of Data  
    - **Categorical**  
@@ -44,11 +45,11 @@ Whereas, for any physical object, it's impossible to have length as -1 cm(!). An
       The answer to **How much?** may be a **decimal number**.  
         - **Interval**  
         Interval data doesn't have *true zero*.  
-        This type of metric values *cannot* be divided or multiplied to obtain a meaningful measure. 
+        Doesn't have equidistant ccale: This type of metric values *cannot* be divided or multiplied to obtain a meaningful measure. 
         (e.g temperature; having 20 deg C at 'A' and 40 deg C at 'B' doesn't mean that B is twice hot as A. That means division doesn't make any sense)  
         - **Ratio**  
         Ratios has *true zero*.
-        This type of metric values can be divided or multiplied to obtain a meaningful measure of characteristic.   
+        It possess equidistant scale. This type of metric values can be divided or multiplied to obtain a meaningful measure of characteristic.   
         (e.g length; 10cm pencil is obviously twice as long as 5cm pencil)  
       - **Discrete**
       Discrete data is the data which must have non-continuous numeric values.  
