@@ -5,13 +5,18 @@ This repository contains some of the most important concepts which must be studi
 **Expertise:** BEGINNER, INTERMEDIATE or ADVANCED  
   
 ## Index  
-#### 1. Statistics  
-1.1 [Datatypes in Statistics](#1.1.-datatypes-in-statistics)
+#### 1. Data Science Project Lifecycle
+#### 2. Statistics  
+2.1 [Datatypes in Statistics](#2.1.-datatypes-in-statistics)  
     
-    
- ## 1. Statistics
+ ## 1. Data Science Project Lifecycle
  
- ### 1.1. Datatypes in Statistics
+ ### 1.1 Introduction
+ Being a state-of-the-art domain, the different participants of Data Science projects might have different titles for the wrappers of reposibilities and tasks to be performed in order to achieve the desired objectives and resolve the business problems. Although, all the Data Science _ runs through    
+ 
+ ## 2. Statistics
+ 
+ ### 2.1. Datatypes in Statistics
  It's very important to understand this basic concept of Datatypes before even touching a *single dataset*.  Because it is the prerequisite for performing Exploratory Data Analysis(EDA) successfully. Data Science professionals emphasis on this because knowing the different types of data and their unique characteristics helps you not only to perform *feature transformations* correctly but also makes *visualization* of certain attributes super easy.
 
 *NOTE: As the differences and characteristics are notably small and little confusing, it's better to remember them through analogies, examples or ways of interpretation. I have provided some, you are welcome to contribute and suggest* ^.^
