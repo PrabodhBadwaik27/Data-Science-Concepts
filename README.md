@@ -12,7 +12,22 @@ This repository contains some of the most important concepts which must be studi
  ## 1. Data Science Project Lifecycle
  
  ### 1.1 Introduction
- Being a state-of-the-art domain, the different participants of Data Science projects might have different titles for the wrappers of reposibilities and tasks to be performed in order to achieve the desired objectives and resolve the business problems. Although, all the Data Science _ runs through    
+Being a state-of-the-art domain, the different participants of Data Science projects might have different titles for the wrappers of reposibilities and tasks to be performed in order to achieve the desired objectives and resolve the business problems. Although, all the Data Science projects run through the six major processes as stated below.  
+**1. Problem Framing**  
+**2. Collection of Raw Data**  
+**3. Data Preprocessing**  
+**4. Data Exploration**  
+**5. In-Depth Analysis of Data**  
+**6. Results Presentation**  
+
+#### 1. Problem Framing
+- In order to frame the problem, **ask a lot of questions.**
+- Translate an ambiguous request from client into a well defined (constrained with objectives) problem statement after understanding the business/industry priorities and motives
+- **Skills Required**
+    - Deep knowledge about *client's business* and *targetted product*
+    - Undestanding of the strategies used by business 
+    - Selection and enablement of team
+
  
  ## 2. Statistics
  
