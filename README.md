@@ -7,8 +7,11 @@ This repository contains some of the most important concepts which must be studi
 ## Index  
 - Data Science Project Lifecycle
     - [Introduction](#introduction)
-- Statistics  
-    - [Datatypes in Statistics](#datatypes-in-statistics)  
+- Data Science Project Scopes Implementation Guide
+    - Data Quality Assessment
+- Data Science Concepts & Theoretical Knowledge
+    - Statistics  
+        - [Datatypes in Statistics](#datatypes-in-statistics)  
     
 ## Data Science Project Lifecycle
  
