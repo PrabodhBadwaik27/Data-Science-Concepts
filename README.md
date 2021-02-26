@@ -5,13 +5,61 @@ This repository contains some of the most important concepts which must be studi
 **Expertise:** BEGINNER, INTERMEDIATE or ADVANCED  
   
 ## Index  
-#### 1. Statistics  
-1.1 [Datatypes in Statistics](#1.1.-datatypes-in-statistics)
+- Data Science Project Lifecycle
+    - [**Introduction**](#introduction)
+- Data Science Project Scopes Implementation Guide
+    - **Data Quality Assessment**
+- Data Science Concepts & Theoretical Knowledge
+    - **Statistics**  
+        - [Datatypes in Statistics](#datatypes-in-statistics)  
     
-    
- ## 1. Statistics
+## Data Science Project Lifecycle
  
- ### 1.1. Datatypes in Statistics
+### Introduction
+Being a state-of-the-art domain, the different participants of Data Science projects might have different titles for the wrappers of reposibilities and tasks to be performed in order to achieve the desired objectives and resolve the business problems. Although, all the Data Science projects run through the six major processes as stated below.  
+**1. Problem Framing**  
+**2. Collection of Raw Data**  
+**3. Data Preprocessing**  
+**4. Data Exploration**  
+**5. In-Depth Analysis of Data**  
+**6. Results Presentation**  
+
+#### 1. Problem Framing
+- In order to frame the problem, **ask a lot of questions.**
+- Translate an ambiguous request from client into a well defined (constrained with objectives) problem statement after understanding the business/industry priorities and motives
+- **Skills Required**
+    - Deep knowledge about *client's business* and *targetted product*
+    - Undestanding of the strategies used by business 
+    - Selection and enablement of team
+
+#### 2. Collection of Raw Data
+
+#### 3. Data Preprocessing
+
+#### 4. Data Exploration
+
+#### 5. In-Depth Analysis of Data
+
+#### 6. Results Presentation
+
+## Data Science Project Scopes Implementation Guide
+
+### Data Quality Assessment
+**Data Quality Assessment** or **DQA** is a foremost process in the [*Data Preprocessing stage*](#data-science-project-lifecycle) performed by *Data Analysts* in the team. DQA is nothing but ensuring the quality of collected data before using it for forecasting analytical results.      
+  
+**Why is it important to perform Data Quality Assessment?**
+In the real world, data is collected from the various sources, which might be part of different datawarehouses handled by various organizations or even data manually collected by individuals. Thus, it is very prone to data entry errors, missing fields due to unavailability of data, different standards regarding datatype, schema, classification followed in data collected from different sources and vast inconsistency (i.e. same attribute/title signifies different meaning in different datasets).  In this scenario, if such *noisy data* is used for model training or forecasting directly, the conclusions drawn can't be relied upon.  
+Hence DQA ensures that the highest quality data is provided for the further processing.  
+  
+In this process, Every attribute is closely analysed, the usability is verified in terms of datatypes & values; if needed, datasets/attributes are transformed to meet the required standards.  
+
+/*
+At the first glance, DQA might seem to be a quite complicated task. Also, considering that the Data Preprocessing Stage alone spans over 80% of the time of complete project, it's a difficult task. But, following a systematic framework over the process would certainly make the task easier and achievable. 
+*/
+
+ ## Statistics
+ 
+ ### Datatypes in Statistics
  It's very important to understand this basic concept of Datatypes before even touching a *single dataset*.  Because it is the prerequisite for performing Exploratory Data Analysis(EDA) successfully. Data Science professionals emphasis on this because knowing the different types of data and their unique characteristics helps you not only to perform *feature transformations* correctly but also makes *visualization* of certain attributes super easy.
 
 *NOTE: As the differences and characteristics are notably small and little confusing, it's better to remember them through analogies, examples or ways of interpretation. I have provided some, you are welcome to contribute and suggest* ^.^
