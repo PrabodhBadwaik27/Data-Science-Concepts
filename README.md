@@ -57,6 +57,13 @@ In this process, Every attribute is closely analysed, the usability is verified 
 At the first glance, DQA might seem to be a quite complicated task. Also, considering that the Data Preprocessing Stage alone spans over 80% of the time of complete project, it's a difficult task. But, following a systematic framework over the process would certainly make the task easier and achievable. 
 */
 
+### Data Exploration
+1. Choose **Target Variable**
+2. Type of *Target Variable*  specifies the type of model to implement;
+  - If *Discrete*, *Classification* model
+  - If *Continuous*, *Regression* model
+3. Review *Relevancy* of all attributes in datasets towards the *target variable* prediction.
+
  ## Statistics
  
  ### Datatypes in Statistics
