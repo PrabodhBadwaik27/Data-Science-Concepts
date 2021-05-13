@@ -9,6 +9,7 @@ This repository contains some of the most important concepts which must be studi
     - [**Introduction**](#introduction)
 - Data Science Project Scopes Implementation Guide
     - **Data Quality Assessment**
+    - **Exploratory Data Analysis**
 - Data Science Concepts & Theoretical Knowledge
     - **Statistics**  
         - [Datatypes in Statistics](#datatypes-in-statistics)  
@@ -57,12 +58,18 @@ In this process, Every attribute is closely analysed, the usability is verified 
 At the first glance, DQA might seem to be a quite complicated task. Also, considering that the Data Preprocessing Stage alone spans over 80% of the time of complete project, it's a difficult task. But, following a systematic framework over the process would certainly make the task easier and achievable. 
 */
 
-### Data Exploration
+### Exploratory Data Analysis (EDA) [Currently in Making]
+Exploratory Data Analysis is also abbreviated as EDA, or called as Data Exploration.  
 1. Choose **Target Variable**
 2. Type of *Target Variable*  specifies the type of model to implement;
   - If *Discrete*, *Classification* model
   - If *Continuous*, *Regression* model
 3. Review *Relevancy* of all attributes in datasets towards the *target variable* prediction.
+4. Bivariate Analysis
+  - Continuous v/s Continuous Attributes
+    - Heatmap - Visual Correlation Map
+  - Continuous v/s Categorical Attributes - z-value, t-value Test
+  - Categorical v/s Categorical Attributes - Chi-square Test
 
  ## Statistics
  
