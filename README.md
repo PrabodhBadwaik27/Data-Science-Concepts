@@ -61,15 +61,43 @@ At the first glance, DQA might seem to be a quite complicated task. Also, consid
 ### Exploratory Data Analysis (EDA) [Currently in Making]
 Exploratory Data Analysis is also abbreviated as EDA, or called as Data Exploration.  
 1. Choose **Target Variable**
+
 2. Type of *Target Variable*  specifies the type of model to implement;
   - If *Discrete*, *Classification* model
   - If *Continuous*, *Regression* model
 3. Review *Relevancy* of all attributes in datasets towards the *target variable* prediction.
+
 4. Bivariate Analysis
   - Continuous v/s Continuous Attributes
     - Heatmap - Visual Correlation Map
-  - Continuous v/s Categorical Attributes - z-value, t-value Test
-  - Categorical v/s Categorical Attributes - Chi-square Test
+  - Continuous v/s Categorical Attributes 
+    - z-value, t-value Test
+  - Categorical v/s Categorical Attributes 
+    - Chi-square Test
+
+5. Missing Value Treatment
+  - Types of Missing Values
+    - Missing at complete random (MACR) #Deletion can be used
+    - Missing at random (MAR) #Deletion can be used; #Correlation analysis is another method
+    - Missing that depends on unobserved predictors
+    - Missing that depends on missing value 
+  - Mising Value Imputation Techniques
+    - Deletion
+      - List wise deletion #Direct deletion
+      - Pair wise deletion #Correlation analysis
+      - Column deletion #In case of high missing value percentage for certain attribute
+    - For Time-Series Data
+    - For General Data
+      - Continuous data
+        - Mean/ Median imputation
+          - Mean #Normal Distribution
+          - Median #Skewed Distribution
+          - Mode #Skewed Data
+        - Linear regression
+      - Categorical data
+        - Mode imputation
+        - Logistic regression
+
 
  ## Statistics
  
