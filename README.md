@@ -98,6 +98,18 @@ Exploratory Data Analysis is also abbreviated as EDA, or called as Data Explorat
         - Mode imputation
         - Logistic regression
 
+6. Outlier Analysis
+The simplest way to detect the occurrence of outliers in any attribute is to plot them graphically. Different types of visual representation plots used for outlier detection are;
+- Box plot
+  - Used for both Univariate and Bivariate Analysis
+  - Plotted between:
+    - Continuous Variable
+    - Continuous and Categorical Variables
+- Scatter plot
+  - Used for Bivariate Outlier detection of two Continuous Variables
+  
+7. Feature Engineering
+
 
  ## Statistics
  
