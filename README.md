@@ -68,6 +68,7 @@ Exploratory Data Analysis is also abbreviated as EDA, or called as Data Explorat
 3. Review *Relevancy* of all attributes in datasets towards the *target variable* prediction.
 
 4. Bivariate Analysis
+Correlation Analysis
   - Continuous v/s Continuous Attributes
     - Heatmap - Visual Correlation Map
   - Continuous v/s Categorical Attributes 
