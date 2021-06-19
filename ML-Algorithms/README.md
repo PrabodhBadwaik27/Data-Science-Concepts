@@ -34,3 +34,41 @@ In this algorithm, we do not have any target or outcome variable to predict / es
 
 [Reference](#https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/)
 
+
+# Machine Learning A-Z™
+[Reference: Machine Learning A-Z™](#)
+
+## Regression
+Regression models (both linear and non-linear) are used for predicting a real value.  
+If the independent variable is *time*, then dependent varible will denote *future* values.  
+Otherwise, the model will predict *present but unknown values*.
+
+### Machine Learning Regression Algorithms
+
+1. ***Simple Linear Regression***
+
+2. ***Multiple Linear Regression***
+
+3. ***Polynomial Regression***
+
+4. ***Support Vector for Regression (SVR)***
+
+5. ***Decision Tree Regression***
+
+6. ***Random Forest Regression***
+
+### Types of Regression
+1. Simple Regression
+No. of Dependent Variables: 1
+No. of Independent Variables: 1
+Equation: y = c + mx
+
+2. Multiple Regression
+No. of Dependent Variables: 1
+No. of Independent Variables: N
+Equation: y = c + m1\*x1 + m2\*x2 + ... + mN\*xN
+
+3. Polynomial Regression
+No. of Dependent Variables: 1
+No. of Independent Variables: N
+Equation: y = c + m1\*x + m2\*x\*\*2 + .. + mN\*x\*\*N
