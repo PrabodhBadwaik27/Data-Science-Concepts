@@ -22,17 +22,29 @@ ML model built by considering *all the variables* present in datasets.
 2. ***Backward Elimination***
 Iterative approach of building a regression model such that the insignificant variables present in the dataset are eliminated from input parameters one-by-one with each iteration.
 
-**Steps in Backward Elimination:**
-- **STEP 1:** Select a threshold significance level to consider input for the model (usually SL = 0.05)
-- **STEP 2:** Fit the model with all possible predictors
-- **STEP 3:** Consider the predictor with the *highest p-value*.  
-If p > SL, go to *STEP 4*
-Else, *FINISH*
-- **STEP 4:** Remove the predictor
-- **STEP 5:** Re-fit model with remaining variables.
-- **FINISH:** Your model is ready
+    - **Steps in Backward Elimination:**
+        - **STEP 1:** Select a threshold significance level to consider input for the model (usually SL = 0.05)
+        - **STEP 2:** Fit the model with all possible predictors
+        - **STEP 3:** Consider the predictor with the *highest p-value*.  
+        If p > SL, go to *STEP 4*
+        Else, *FINISH*
+        - **STEP 4:** Remove the predictor
+        - **STEP 5:** Re-fit model with remaining variables.
+        - **FINISH:** Your model is ready
 
-3. ***Forward Selection***
+3. ***Forward Selection*** 
+Iterative approach of building a regression model such that a single significant variable is added in fitting at every iteration.
+
+    - **Steps in Forward Selection:**
+        - **STEP 1:** Select a significance level to enter the model (usually SL = 0.05)
+        - **STEP 2:** Fit all the simple regression models y ~ x(n).
+        Select the one with lowest p-value.
+        - **STEP 3:** Keep this variable and fit all possible models with extra one predictor added to the one(s) you already have.
+        - **STEP 4:** Consider the predictor with the *lowest* p-value.
+        If p < SL, go to *STEP 4*
+        Else, *FINISH*
+        - **FINISH:** Keep the *previous* model 
+
 4. ***Bidirectional Elimination***
 5. ***Score Comparison***
 
