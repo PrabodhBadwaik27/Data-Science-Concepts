@@ -8,12 +8,6 @@
 4. Independence of Errors  
 5. Lack of Multicollinearity  
 
-### Dummy Variables
-**Dummy Variables** are the columns which are newly created for every value present in the *categorical variables* in dataset.
-
-***Dummy Variable Trap***  
-Always omit one dummy variable for every categorical variable.
-
 ## Methods of Building Models
 
 1. ***All-in***
@@ -46,7 +40,31 @@ Iterative approach of building a regression model such that a single significant
         - **FINISH:** Keep the *previous* model 
 
 4. ***Bidirectional Elimination***
-5. ***Score Comparison***
+    - **Steps in Bidirectional Elimination:**
+        - **STEP 1:** Select a significance level to enter (SLENTER) and to stay (SLSTAY) in the model.
+        (usually, SLENTER = 0.05, SLSTAY = 0.05)
+        - **STEP 2:** Perform the *STEP 2* of *Forward Selection Method* considering *p < SL = SLENTER* to enter
+        - **STEP 3:** Perform *ALL* steps of *Backward Elimination, p < SL = SLSTAY* to stay
+        - **STEP 4:** Repeat *STEP 2* and *STEP 3* till no more variable can enter and exit
+        - **FINISH:** Your model is ready
 
-***Note:***  
-Types 2, 3 and 4 are alternatively referred as **Stepwise Regression**.
+5. ***Score Comparison***
+**Score comparison** model can be described as *selecting the best* model from *all possible models*.
+    - **Steps in Score Comparison method:**
+        - **STEP 1:** Select a criterion of godness of fit (e.g. Akaike criterion)
+        - **STEP 2:** Construct all possible regression models 
+        Total combinations = (2^N - 1) 
+        where, N is no. of variables
+        **STEP 3:** Select the one with best criterion (score)
+        **FINISH:** Your model is ready
+
+    - **Drawbacks of Score Comparison method**
+        - Non-feasible method, both resource and time cosuming.
+        - No scope of human interference, thus difficult to interprete 
+
+***Notes:***  
+1. Types 2, 3 and 4 are alternatively referred as **Stepwise Regression**.
+
+2. ***Dummy Variables***
+**Dummy Variables** are the columns which are newly created for every value present in the *categorical variables* in dataset.
+**Dummy Variable Trap** (concept) suggests to necessarily omit one dummy variable for every categorical variable.
