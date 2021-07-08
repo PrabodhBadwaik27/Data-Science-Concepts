@@ -1,12 +1,24 @@
 # Linear Regression
 
-## Assumptions of Linear Regression
+## Assumptions of Linear Regression (OLS Assumptions)
 
-1. Linearity  
-2. Homoscedasticity  
-3. Multivariate Normality  
-4. Independence of Errors  
-5. Lack of Multicollinearity  
+1. ***Linearity***  
+Data points must be linear.
+If the data is not linear, transform it accordingly.
+
+2. ***Homoscedasticity & Normality***
+Uneven spread of data points around the regression line
+
+3. ***Multivariate Normality***
+
+4. ***No Endogeneity/ Independence of Errors***
+No correlation between error and independent variables
+
+5. ***Lack of Multicollinearity***
+Two or more variables have high correlation
+
+6. ***No Autocorrelation***
+No serial correlation
 
 ## Methods of Building Models
 

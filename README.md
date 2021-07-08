@@ -113,6 +113,28 @@ The simplest way to detect the occurrence of outliers in any attribute is to plo
 
 
  ## Statistics
+
+ ### Measures of Central Tendency
+
+ ### Measures of Dispersion
+ 1. ***Variance $s^{2}$***
+  - Variance is the measure of **dispersion** around the *mean*.
+  - It is determined as **squared difference of all the values with mean**.  
+  $$s^{2} = \frac{\sum (x_{i} - \bar{x})^{2}}{N - 1}$$
+
+ 2. ***Standard Deviation***
+  - Standard Deviation is another measure of dispersion, only **termed in same unit** as the data points.
+  - It is determined by calculating the **square root of Variance**
+
+ 3. ***Covariance***
+  - Covariance is the measure of **join variability** of two random variables.
+  - Covariance values can be *positive* or *negative*.
+  **Positive** value denotes that, greater value of one variable corresponds to greater value of other variable.  
+  Whereas, **negative** covariance suggests that lesser value of one variable corresponds to higher value of other variable.  
+  - However, *magitude of covariance doesn't specify the strength of relationship, but only direction*.   
+  - **Correlation Coefficient** is normalized version of covariance, which shows the strength of the linear relation by its magnitude.  
+  
+
  
  ### Datatypes in Statistics
  It's very important to understand this basic concept of Datatypes before even touching a *single dataset*.  Because it is the prerequisite for performing Exploratory Data Analysis(EDA) successfully. Data Science professionals emphasis on this because knowing the different types of data and their unique characteristics helps you not only to perform *feature transformations* correctly but also makes *visualization* of certain attributes super easy.
