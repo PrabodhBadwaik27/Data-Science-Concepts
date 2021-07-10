@@ -132,8 +132,8 @@ The simplest way to detect the occurrence of outliers in any attribute is to plo
   **Positive** value denotes that, greater value of one variable corresponds to greater value of other variable.  
   Whereas, **negative** covariance suggests that lesser value of one variable corresponds to higher value of other variable.  
   - However, *magitude of covariance doesn't specify the strength of relationship, but only direction*.   
-  - **Correlation Coefficient** is normalized version of covariance, which shows the strength of the linear relation by its magnitude.  
-  
+  - **Correlation Coefficient** is normalized version of covariance, which specifies the strength of the linear relation by its magnitude.    
+  $$cov_{x,y} = \frac{\sum\limits_{i=1}^{n}{(x_i-\overline{x}) \cdot (y_i-\overline{y})} }{n-1}$$
 
  
  ### Datatypes in Statistics
