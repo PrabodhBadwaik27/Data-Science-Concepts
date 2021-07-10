@@ -135,6 +135,10 @@ The simplest way to detect the occurrence of outliers in any attribute is to plo
   - **Correlation Coefficient** is normalized version of covariance, which specifies the strength of the linear relation by its magnitude.    
   <img src="https://render.githubusercontent.com/render/math?math=cov_{x,y}=\frac{\sum_{i=1}^{N}(x_{i}-\bar{x})(y_{i}-\bar{y})}{N-1}">   
 
+4. ***Pearson Correlation Coefficient***  
+  - *Pearson's correlation coefficient* is the **covariance** of the two variables **divided by** the **product of their standard deviations**. 
+
+[An amazing Reference](https://tinystats.github.io/teacups-giraffes-and-statistics/05_correlation.html)
  
  ### Datatypes in Statistics
  It's very important to understand this basic concept of Datatypes before even touching a *single dataset*.  Because it is the prerequisite for performing Exploratory Data Analysis(EDA) successfully. Data Science professionals emphasis on this because knowing the different types of data and their unique characteristics helps you not only to perform *feature transformations* correctly but also makes *visualization* of certain attributes super easy.
