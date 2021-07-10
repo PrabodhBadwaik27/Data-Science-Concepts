@@ -117,7 +117,7 @@ The simplest way to detect the occurrence of outliers in any attribute is to plo
  ### Measures of Central Tendency
 
  ### Measures of Dispersion
- 1. ***Variance $s^{2}$***
+ 1. ***Variance***
   - Variance is the measure of **dispersion** around the *mean*.
   - It is determined as **squared difference of all the values with mean**.  
   <img src="https://render.githubusercontent.com/render/math?math=s^{2} = \frac{\sum (x_{i} - \bar{x})^{2}}{N - 1}">  
