@@ -120,6 +120,7 @@ The simplest way to detect the occurrence of outliers in any attribute is to plo
  1. ***Variance $s^{2}$***
   - Variance is the measure of **dispersion** around the *mean*.
   - It is determined as **squared difference of all the values with mean**.  
+  <img src="https://render.githubusercontent.com/render/math?math=x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}">
   $$s^{2} = \frac{\sum (x_{i} - \bar{x})^{2}}{N - 1}$$
 
  2. ***Standard Deviation***
