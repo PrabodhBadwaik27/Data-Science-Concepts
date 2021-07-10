@@ -120,8 +120,7 @@ The simplest way to detect the occurrence of outliers in any attribute is to plo
  1. ***Variance $s^{2}$***
   - Variance is the measure of **dispersion** around the *mean*.
   - It is determined as **squared difference of all the values with mean**.  
-  <img src="https://render.githubusercontent.com/render/math?math=x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}">
-  $$s^{2} = \frac{\sum (x_{i} - \bar{x})^{2}}{N - 1}$$
+  <img src="https://render.githubusercontent.com/render/math?math=s^{2} = \frac{\sum (x_{i} - \bar{x})^{2}}{N - 1}">  
 
  2. ***Standard Deviation***
   - Standard Deviation is another measure of dispersion, only **termed in same unit** as the data points.
@@ -134,7 +133,7 @@ The simplest way to detect the occurrence of outliers in any attribute is to plo
   Whereas, **negative** covariance suggests that lesser value of one variable corresponds to higher value of other variable.  
   - However, *magitude of covariance doesn't specify the strength of relationship, but only direction*.   
   - **Correlation Coefficient** is normalized version of covariance, which specifies the strength of the linear relation by its magnitude.    
-  $$cov_{x,y} = \frac{\sum\limits_{i=1}^{n}{(x_i-\overline{x}) \cdot (y_i-\overline{y})} }{n-1}$$
+  <img src="https://render.githubusercontent.com/render/math?math=cov_{x,y} = \frac{\sum\limits_{i=1}^{n}{(x_i-\overline{x}) \cdot (y_i-\overline{y})} }{n-1}">   
 
  
  ### Datatypes in Statistics
