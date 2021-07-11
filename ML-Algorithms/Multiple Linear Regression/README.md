@@ -2,23 +2,17 @@
 
 ## Assumptions of Linear Regression (OLS Assumptions)
 
-1. ***Linearity***  
-Data points must be linear.
-If the data is not linear, transform it accordingly.
+1. ***Linearity***
+2. ***No Endogeneity***
+3. ***Normality & Homoscedasticity***
+4. ***No Autocorrelation***
+5. ***No Multicollinearity***
 
-2. ***Homoscedasticity & Normality***
-Uneven spread of data points around the regression line
+**Note:**  
+ML Engineer doesn't necessarily need to validate the OLS assumptions on a new dataset before model training.  
+The reason is, after model training if the Linear Regression model yields less poor accuracy than other algorithms, then anyhow the model will be scraped out.  
 
-3. ***Multivariate Normality***
-
-4. ***No Endogeneity/ Independence of Errors***
-No correlation between error and independent variables
-
-5. ***Lack of Multicollinearity***
-Two or more variables have high correlation
-
-6. ***No Autocorrelation***
-No serial correlation
+[Reference](https://365datascience.com/tutorials/statistics-tutorials/ols-assumptions/)
 
 ## Methods of Building Models
 
@@ -79,4 +73,7 @@ Iterative approach of building a regression model such that a single significant
 
 2. ***Dummy Variables***
 **Dummy Variables** are the columns which are newly created for every value present in the *categorical variables* in dataset.
-**Dummy Variable Trap** (concept) suggests to necessarily omit one dummy variable for every categorical variable.
+**Dummy Variable Trap** (concept) suggests to necessarily omit one dummy variable for every categorical variable since conceptually it's redundant to have a dummy variable for all the categorical variables.
+
+3. As stated before in regards of OLS assumptions, ML Engineer doesn't necessarily need to take any additional steps for **avoiding dummy variable trap** and **Model building type** for model training.  
+The reason is, the SciKit-Learn library itself takes care of both the aspects.  
