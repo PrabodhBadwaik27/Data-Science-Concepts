@@ -1,4 +1,4 @@
-# Linear Regression
+# Multiple Linear Regression
 
 ## Assumptions of Linear Regression (OLS Assumptions)
 
