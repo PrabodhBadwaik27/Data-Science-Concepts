@@ -62,13 +62,14 @@ At the first glance, DQA might seem to be a quite complicated task. Also, consid
 Exploratory Data Analysis is also abbreviated as EDA, or called as Data Exploration.  
 1. Choose **Target Variable**
 
-2. Type of *Target Variable*  specifies the type of model to implement;
+2. Type of *Target Variable*  specifies the *type of model* to be implemented;
   - If *Discrete*, *Classification* model
   - If *Continuous*, *Regression* model
+
 3. Review *Relevancy* of all attributes in datasets towards the *target variable* prediction.
 
-4. Bivariate Analysis
-Correlation Analysis
+4. ***Bivariate Analysis***
+**Correlation Analysis**
   - Continuous v/s Continuous Attributes
     - Heatmap - Visual Correlation Map
   - Continuous v/s Categorical Attributes 
@@ -76,13 +77,13 @@ Correlation Analysis
   - Categorical v/s Categorical Attributes 
     - Chi-square Test
 
-5. Missing Value Treatment
-  - Types of Missing Values
+5. ***Missing Value Treatment***
+  - **Types of Missing Values**
     - Missing at complete random (MACR) #Deletion can be used
     - Missing at random (MAR) #Deletion can be used; #Correlation analysis is another method
     - Missing that depends on unobserved predictors
     - Missing that depends on missing value 
-  - Mising Value Imputation Techniques
+  - **Mising Value Imputation Techniques**
     - Deletion
       - List wise deletion #Direct deletion
       - Pair wise deletion #Correlation analysis
@@ -99,7 +100,7 @@ Correlation Analysis
         - Mode imputation
         - Logistic regression
 
-6. Outlier Analysis
+6. **Outlier Analysis**
 The simplest way to detect the occurrence of outliers in any attribute is to plot them graphically. Different types of visual representation plots used for outlier detection are;
 - Box plot
   - Used for both Univariate and Bivariate Analysis
@@ -109,7 +110,27 @@ The simplest way to detect the occurrence of outliers in any attribute is to plo
 - Scatter plot
   - Used for Bivariate Outlier detection of two Continuous Variables
   
-7. Feature Engineering
+7. ***Feature Engineering***
+  - **Feature Scaling**
+  Feature scaling *must not* be applied to the complete set of input values at once but *separately* over the *training set* and *test set*.    
+  However, note that the aggregate values calculated for *training set* are readily used while scaling the *test set*.   
+  The reasoning for this approach lies in the fact that, in the real life scenarios, all the test data points might not be available at the beginning (and hence the aggregate value for test set). Thus, aggregate values calculated for *training set* must be put to use.   
+    - Standardization
+      - **Formula:** x_std = (x - mean(x))/ std_dev(x)  
+      - It scales all the data values between -3 and 3.   
+      - Standardization can be used flexibly for any features and datasets.   
+    - Normalization
+      - **Formula:** x_norm = (x - min(x))/ (max(x) - min(x))  
+      - It scales all the data values between 0 and 1.   
+      - Recommended in use when most of the variables follows *normal distribution*.  
+
+  ***Note:***
+  **Q. Should *Feature Scaling* be applied to *Dummy Variables*? Why?**   
+  The precise answer is, **No**. It is due to the following reasons:  
+  1. Dummy variables are already *standardized* and has constant values {0,1}  
+  2. Scaling the dummy variables violates the actual interpretation of dummy variables.  
+  3. Although commonly claimed in few articles over internet, there's no practical evidence that standardizing the dummy variables improves model accuracy.
+
 
 
  ## Statistics
