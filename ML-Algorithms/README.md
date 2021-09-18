@@ -6,8 +6,8 @@ This algorithm consist of a target / outcome variable (or dependent variable) wh
     - Regression
         - Linear Regression
         - Decision Tree
+        - [Logistic Regression](https://careerfoundry.com/en/blog/data-analytics/what-is-logistic-regression/)
     - Classification
-        - Logistic Regression    
         - Naive Bayes
         - Random Forest
         - k-Nearest Neighbours

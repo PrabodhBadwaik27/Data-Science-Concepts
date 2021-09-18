@@ -7,6 +7,8 @@
 3. ***Normality & Homoscedasticity***
 4. ***No Autocorrelation***
 5. ***No Multicollinearity***
+  
+[OLS Assumptions Validation](https://jeffmacaluso.github.io/post/LinearRegressionAssumptions/)
 
 **Note:**  
 ML Engineer doesn't necessarily need to validate the OLS assumptions on a new dataset before model training.  
